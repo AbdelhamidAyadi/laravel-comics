@@ -40,3 +40,28 @@ footer{
         background-repeat: no-repeat;
       }
 }
+.social_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #303030;
+
+  h3{
+    border: #0282f9 2px solid;
+    color: white;
+    padding: 10px;
+  }
+}
+.container2{
+  display: flex;
+  align-items: center;
+
+  img{
+    padding: 0 5px;
+  }
+  h4{
+    padding: 0 10px;
+    color: #0282f9;
+  }
+}

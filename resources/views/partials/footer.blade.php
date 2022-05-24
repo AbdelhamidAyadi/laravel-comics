@@ -143,3 +143,22 @@
         </div>
       </div>
 </footer>
+<div class="social_container">
+
+  <div>
+    <h3>
+      SIGN-UP NOW!
+    </h3>
+  </div>
+  <div class="container2">
+    <h4>
+      FOLLOW US
+    </h4>
+    <img src="../images/footer-facebook.png" alt="logo facebook">
+    <img src="../images/footer-twitter.png" alt="logo facebook">
+    <img src="../images/footer-youtube.png" alt="logo facebook">
+    <img src="../images/footer-pinterest.png" alt="logo facebook">
+    <img src="../images/footer-periscope.png" alt="logo facebook">
+  </div>
+
+</div>
