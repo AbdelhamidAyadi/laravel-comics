@@ -1,1 +1,51 @@
+.header_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  height: 70px;
+}
+
+.header_bottom img {
+  height: 100%;
+}
+
+.header_bottom li {
+  list-style-type: none;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header_bottom li a {
+  text-decoration: none;
+  color: rgb(70, 70, 70);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.header_bottom li a:hover {
+  color: #0282f9;
+}
+
+.header_bottom ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.header_bottom div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header_bottom .active {
+  border-bottom: 5px solid rgb(77, 148, 255);
+}
+
+.header_bottom .active a {
+  color: rgb(77, 148, 255);
+}
 
