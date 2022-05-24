@@ -11,58 +11,50 @@
   padding: 0 10%;
   height: 70px;
 }
-
 .header_bottom img {
   height: 100%;
+  padding: 10px 0;
 }
-
 .header_bottom li {
   list-style-type: none;
   padding: 0 10px;
   display: flex;
   align-items: center;
 }
-
 .header_bottom li a {
   text-decoration: none;
   color: rgb(70, 70, 70);
   font-weight: bold;
   font-size: 0.8rem;
 }
-
 .header_bottom li a:hover {
   color: #0282f9;
 }
-
 .header_bottom ul {
   display: flex;
   padding: 0;
   margin: 0;
   height: 100%;
 }
-
 .header_bottom div {
   height: 100%;
   display: flex;
   align-items: center;
 }
-
 .header_bottom .active {
   border-bottom: 5px solid rgb(77, 148, 255);
 }
-
 .header_bottom .active a {
   color: rgb(77, 148, 255);
 }
 
 .jumbotron {
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("../images/jumbotron.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
   position: relative;
 }
-
 .jumbotron p {
   display: flex;
   align-items: center;
@@ -89,7 +81,6 @@
   flex-grow: 1;
   justify-content: center;
 }
-
 .load-more p {
   background-color: #0282f9;
   padding: 10px 50px;
@@ -101,12 +92,10 @@
   width: 16.6666666667%;
   padding: 50px 10px;
 }
-
 .card img {
   width: 100%;
   border-radius: 10px;
 }
-
 .card a {
   display: inline-block;
   color: white;
@@ -116,3 +105,60 @@
   font-weight: bold;
 }
 
+.menu {
+  padding: 50px 10%;
+  background-color: #0282f9;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu ul li {
+  display: flex;
+  align-items: center;
+}
+.menu ul li img {
+  height: 80px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+.menu ul li a:hover {
+  color: black;
+}
+
+footer .container1 {
+  display: flex;
+  background-image: url("../images/footer-bg.jpg");
+}
+footer .container2 {
+  display: flex;
+  padding: 50px 10%;
+}
+footer .container2 ul {
+  list-style-type: none;
+}
+footer .container2 h3 {
+  color: white;
+  padding: 15px 0;
+}
+footer .container2 a {
+  text-decoration: none;
+  color: rgb(189, 189, 189);
+}
+footer .container2 a:hover {
+  color: #0282f9;
+}
+footer .container3 {
+  margin-left: 50px;
+}
+footer .logo_background {
+  flex-grow: 1;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+}

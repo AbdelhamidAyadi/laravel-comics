@@ -1,0 +1,42 @@
+footer{
+    .container1 {
+        display: flex;
+        background-image: url('../images/footer-bg.jpg');
+        
+      }
+    
+      .container2 {
+        display: flex;
+        
+        padding: 50px 10%;
+        
+    
+        ul {
+          list-style-type: none;
+        }
+    
+        h3 {
+          color: white;
+          padding: 15px 0;
+        }
+    
+        a {
+          text-decoration: none;
+          color: rgb(189, 189, 189);
+    
+          &:hover{
+            color:#0282f9;
+          }
+        }
+      }
+    
+      .container3 {
+        margin-left: 50px;
+      }
+    
+      .logo_background {
+        flex-grow: 1;
+        background-image: url('../images/dc-logo-bg.png');
+        background-repeat: no-repeat;
+      }
+}
