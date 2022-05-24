@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    
-    return view('layout.layout');
+    $comics = config('comics');
+    return view('partials.current_series' , [ 'comics' => $comics ]);
 });
+
