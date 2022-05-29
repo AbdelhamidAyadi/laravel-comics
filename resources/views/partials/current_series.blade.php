@@ -36,11 +36,13 @@
     <p>CURRENT SERIES</p>
 </div>
 <div class="cards">
-    @foreach ($comics as $card)
-    <div class="card">
-        <img src="{{$card['thumb']}}">
-        <a href="">{{ $card['series'] }}</a>
-      </div>
+    @foreach ($comics as $key => $card)
+    <a href=" {{$key}} ">
+        <div class="card">
+            <img src="{{$card['thumb']}}">
+            <a href=" {{$key}}">{{ $card['series'] }}</a>
+          </div>
+    </a>
     @endforeach
 
     <div class="load-more">

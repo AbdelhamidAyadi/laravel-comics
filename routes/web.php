@@ -17,4 +17,8 @@ Route::get('/', function () {
     $comics = config('comics');
     return view('partials.current_series' , [ 'comics' => $comics ]);
 });
-
+Route::get('/{id}', function ($id) {
+    $comics = config('comics');
+    $comic = $comics[$id];
+    return view('partials.series_details' , compact('comic'));
+});

@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import '~bootstrap/dist/css/bootstrap.min.css';
 @import './partials/header.scss';
 @import './partials/current_series.scss';
 @import './partials/footer.scss';
+@import './partials/series_details.scss'
 
